@@ -1,0 +1,78 @@
+.menuToogle {
+    width: 250px;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    height: 100%;
+    transition: left ease-in 250ms;
+    z-index: 5;
+    background-color: #fff;
+}
+.toggleMenu {
+    left: 0 !important;
+}
+
+
+.li-relativo li {
+    position: relative;
+}
+
+.cart-decor .bloq-icono {
+    width: 100px;
+    height: 100px;
+    font-size: 3.75rem;
+    margin-bottom: 0.9375rem;
+}
+.cart-decor > .bloq > .bloq {
+    font-size: 3.75rem;
+}
+
+.cart-decor .bloq-titulo {
+    font-size: 1.5em;
+}
+.cart-decor .bloq-texto {
+    font-size: .9em;
+}
+.cart-decor .boton {
+    margin-top: .4rem;
+}
+
+/* tamaños */
+/* gra */
+.cart-decor.gra .bloq-icono {
+    width: 150px;
+    height: 150px;
+    font-size: 5rem;
+}
+.cart-decor.gra > .bloq .bloq {
+    font-size: 5.2rem;
+}
+/* peq */
+.cart-decor.peq .bloq-icono {
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+}
+.cart-decor.peq > .bloq > .bloq {
+    font-size: 3rem;
+}
+
+/* estilos de carta */
+.cart-decor.estilo-rell,
+.cart-decor.estilo-rell-1,
+.cart-decor.estilo-rell-2 {
+    padding: 20px;
+    border-radius: 13px;
+}
+.cart-decor.estilo-rell-2 {
+    border: 1px solid;
+}
+.cart-decor.estilo-rell-1 .bloq-icono,
+.cart-decor.estilo-1 .bloq-icono {
+    background-color: rgba(0,0,0,.1);
+}
+
+.cart-decor.estilo-rell-2 .bloq-icono,
+.cart-decor.estilo-2 .bloq-icono {
+    border: 1px solid;
+}
